@@ -1,0 +1,100 @@
+body{
+	background-color: hsl(30, 38%, 92%); 
+}
+
+.title{
+	font-family: 'Fraunces', serif;
+	font-weight: 500;
+	font-size: 30px;
+	color :  hsl(212, 21%, 14%); 
+	line-height: 1em;
+}
+
+.description{
+	font-family:'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	color :  hsl(228, 12%, 48%);  
+	line-height: 22px; 
+	margin-top: 0;
+}
+
+#add_to_cart{
+	background-color: hsl(158, 36%, 37%); 
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	color:  hsl(0, 0%, 100%); 
+	text-align: center; 
+	width: 200px; 
+	height: 40px; 
+	border-radius: 5px;
+	border-color:hsl(158, 36%, 37%) ;
+	margin-top: 5px;
+}
+
+
+
+.photo{
+	float: left; 
+	width: 45%; 
+}
+
+.photo >img{
+	padding: 10 px; 
+	width : 250px; 
+	height: 370px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.texte{
+	float: right;
+	width: 45%;
+	height: 370px;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+
+}
+
+.content{
+	height:370px;
+	width: 500px; 
+	position: absolute;
+	top:50%; 
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 10px;
+}
+
+
+
+
+#p1 {
+	font-family: 'Fraunces', serif;
+	color : hsl(158, 36%, 37%) ;
+	font-weight: 500; 
+	font-size: 30px;
+	float: left; 
+	width: 50%;
+}
+
+#p2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	color: hsl(228, 12%, 48%); 
+	float: right;
+	width: 50%;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration-line: line-through;
+}
+
+.attribution{
+	position: absolute;
+	bottom: 10px;
+	left: 40%; 
+	right: 40%;
+}
